@@ -2,7 +2,17 @@
 @import './colors.scss';
 
 .btn {
+  border-radius: 20px;
+  background-color: transparent;
   &.btn-primary {
+    border-color: $primary-dark;
+    color: $primary-dark;
+    box-shadow: 0 0 25px $primary-dark;
+  }
 
+  &.btn-secondary {
+    border-color: $secondary-dark;
+    color: $secondary-dark;
+    box-shadow: 0 0 25px $secondary-dark;
   }
 }
