@@ -1,0 +1,24 @@
+// All overrides of styling from BS should go in here pls thx
+@import './colors.scss';
+
+body {
+  .btn {
+    border-radius: 20px;
+    background-color: transparent;
+    &.btn-primary {
+      border-color: $primary-dark;
+      color: $primary-dark;
+      box-shadow: 0 0 25px $primary-dark;
+    }
+
+    &.btn-secondary {
+      border-color: $secondary-dark;
+      color: $secondary-dark;
+      box-shadow: 0 0 25px $secondary-dark;
+    }
+  }
+
+  // &.light-mode {
+  //    copy all the styling selectors and override color variables
+  // }
+}
